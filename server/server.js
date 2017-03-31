@@ -53,6 +53,8 @@ var {User} = require('./models/user');
 //   }
 // );
 
+
+// define express application
 var app = express();
 // middleware
 app.use(bodyParser.json());
